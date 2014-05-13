@@ -2916,10 +2916,7 @@ $( ".box" ).hover(
   }
 );
  
-$( ".box.fade" ).hover(function() {
-  $( this ).fadeOut( 100 );
-  $( this ).fadeIn( 500 );
-});
+
 
 
 
