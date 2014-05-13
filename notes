@@ -1,0 +1,108 @@
+> $('.box1') --> $ denotes a function, calling a string, '.box1'.
+  [<div class=​"box1">​wow​</div>​]
+ 
+> $('.box1').css('background', 'blue')
+  [<div class=​"box1" style=​"background-color:​ blue;​ background-position:​ initial initial;​ background-repeat:​ initial initial;​">​wow​</div>​]
+ 
+> $('.box1').text("WOW THIS IS AWESOME")
+  [<div class=​"box1">​WOW THIS IS AWESOME​</div>​]
+ 
+> $('.box2').append('<h1>hey guys</h1>')
+  [<div class=​"box2">​…​</div>​]
+ 
+> $('.box1').click(function() {
+    $('.box2').text('MY SIBLING GOT CLICKED');
+  })
+  [<div class=​"box1">​wow​</div>​]
+ 
+> $('.box1').click(function() {
+    $('.container').append('<div class="box1"></div>')
+  })
+  [<div class=​"box1">​wow​</div>​]
+ 
+> $('.box1').click(function() {
+    $('.box1').addClass('active')
+  })
+  [<div class=​"box1">​wow​</div>​]
+ 
+> $('.box1').click(function() {
+   $(this).addClass('active')
+  }) --> in this situation THIS refers to the item being interacted with.
+
+  f
+
+  //Monday Lecture
+//**this is mining for average price in a way that is a reusable
+//function for the rest of the layout**
+
+
+//function averageItemPrices(items) {
+  //return items.map(function(item){
+    //return item.price;
+  //}).reduce(function(first, second){
+    //return first + second;
+  //}) / items.length
+//}
+
+
+
+//**find the GBP code**
+//items.forEach(function(item){
+  //if (item.currency_code == "GBP") {
+    //console.log('found it!', item.title);
+  //}
+//})
+
+
+
+//**show which items are made of wood**
+//materials
+//items.forEach(function(item){
+  //item.materials.forEach(function(materials){
+    //if (materials == "wood") {
+      //console.log (item.title)
+    //}
+  //})
+//})
+
+
+
+//*doesn't have to actually have a value in (), would produce a bunch
+//of 'hey'
+//items.forEach(function(){
+  //console.log('hey')
+//})
+
+
+
+//**Jquery**
+
+//$('.box1').text("WOW THIS IS AWESOME")
+
+//$(".box1").css("background", "green")
+
+//$("div").append("<h1>hey guys</h1>")
+
+
+//*targeting subjects and getting them to change**
+//$(".box1").click(function(){
+  //$(".box2").text("My Sibling got clicked");
+//})
+
+//$(".box1").click(function(){
+  //$(".container").append("<div class=".box2">cool</div>")
+//})
+
+//$('.box1').click(function(){
+  //$('.box1').addClass('active')
+//})
+
+//$('.box1').click(function(){
+  //$(this).addClass('active')
+//})
+
+
+
+//[1,2,3,4].filter(function(x){
+  //return x > 2;
+//})

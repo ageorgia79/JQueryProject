@@ -1,0 +1,136 @@
+.header {
+	margin: 0;
+	width: auto;
+	height: 400px;
+	background: url(http://www.newyorkwines.org/Content/img/BG/HOME_05.jpg);
+}
+
+.header h1 {
+	margin: 0;
+	font-size: 140px;
+	color: #FFCC33;
+	text-align: center;
+	position: relative;
+	top: 100px;
+	font-family: fantasy;
+}
+
+.header h2 {
+	margin: 0;
+	font-size: 45px;
+	color: #CC9900;
+	position: relative;
+	top: 40px;
+	font-family: fantasy;
+	text-align: center;
+}
+
+
+.leftbar {
+	width: 30%;
+	height: 5800px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	background: rgb(174,188,191); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(174,188,191,1) 0%, rgba(10,14,10,1) 0%, rgba(110,119,116,1) 15%, rgba(110,119,116,1) 15%, rgba(110,119,116,1) 25%, rgba(110,119,116,1) 90%, rgba(10,8,9,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(174,188,191,1)), color-stop(0%,rgba(10,14,10,1)), color-stop(15%,rgba(110,119,116,1)), color-stop(15%,rgba(110,119,116,1)), color-stop(25%,rgba(110,119,116,1)), color-stop(90%,rgba(110,119,116,1)), color-stop(100%,rgba(10,8,9,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(174,188,191,1) 0%,rgba(10,14,10,1) 0%,rgba(110,119,116,1) 15%,rgba(110,119,116,1) 15%,rgba(110,119,116,1) 25%,rgba(110,119,116,1) 90%,rgba(10,8,9,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(174,188,191,1) 0%,rgba(10,14,10,1) 0%,rgba(110,119,116,1) 15%,rgba(110,119,116,1) 15%,rgba(110,119,116,1) 25%,rgba(110,119,116,1) 90%,rgba(10,8,9,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(174,188,191,1) 0%,rgba(10,14,10,1) 0%,rgba(110,119,116,1) 15%,rgba(110,119,116,1) 15%,rgba(110,119,116,1) 25%,rgba(110,119,116,1) 90%,rgba(10,8,9,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(174,188,191,1) 0%,rgba(10,14,10,1) 0%,rgba(110,119,116,1) 15%,rgba(110,119,116,1) 15%,rgba(110,119,116,1) 25%,rgba(110,119,116,1) 90%,rgba(10,8,9,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=0 ); /* IE6-9 */
+
+
+
+
+
+
+
+
+}
+
+.leftbar ul {
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	list-style-type: none;
+	top: 80px;
+	font-size: 25px;
+
+}
+
+
+.leftbar li a {
+	margin-bottom: 20px;
+	margin-top: 30px;	
+	position: relative;
+	font-family: fantasy;
+	color: #FFCC33;
+
+
+
+	
+}
+.leftbar img {
+	position: relative;
+
+	
+
+}
+
+.mydropdown1 {
+	width: 150px;
+	margin: 30px;
+	
+
+	
+}
+
+
+.mydropdown2 {
+	width: 150px;
+	margin: 30px;
+
+}
+
+.mydropdown3 {
+	width: 150px;
+	margin: 30px;
+	
+}
+.mydropdown4 {
+	width: 150px;
+	margin: 30px;
+
+	
+}
+
+
+
+
+
+
+.rightbar {
+	width: 70%;
+	height: 100%;
+	float: right;
+
+}
+
+
+
+.box {
+	height: 65%;
+	width: 100%;
+	margin: 0px;
+	float: none;
+
+}
+
+
+
+	
+
+
