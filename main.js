@@ -2900,17 +2900,17 @@ var lastPart = ') " class="box"></div>'
 items.forEach(function(item){
   item.Images.forEach(function(image){
     var totalString = firstPart + image.url_570xN + lastPart
-    $('.container').append(totalString)
+    $('.rightbar').append(totalString)
   })
 })
 
 items.forEach(function(item) {
-    $('.container').append('<div style="background": #' + item.Images[0].hex_code + ' " class="box"></div>')
+    $('.rightbar').append('<div style="background": #' + item.Images[0].hex_code + ' " class="box"></div>')
 });
 
 $( ".box" ).hover(
   function() {
-    $( this ).append( $( "<span> This is Awesome</span>" ) );
+    $( this ).append( $( "<span> This is Awesome </span>" ) );
   }, function() {
     $( this ).find( "span:last" ).remove();
   }
