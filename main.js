@@ -2908,6 +2908,19 @@ items.forEach(function(item) {
     $('.container').append('<div style="background": #' + item.Images[0].hex_code + ' " class="box"></div>')
 });
 
+$( ".box" ).hover(
+  function() {
+    $( this ).append( $( "<span> This is Awesome</span>" ) );
+  }, function() {
+    $( this ).find( "span:last" ).remove();
+  }
+);
+ 
+$( ".box.fade" ).hover(function() {
+  $( this ).fadeOut( 100 );
+  $( this ).fadeIn( 500 );
+});
+
 
 
 
